@@ -11,7 +11,7 @@ public class LoginPage {
 	private By emailId = By.id("email");
 	private By password = By.id("passwd");
 	private By signInBtn = By.id("SubmitLogin");
-	private By forgotPwdLink = By.partialLinkText("Forgot your password?");
+	private By forgotPwdLink = By.partialLinkText("Forgot your password?123");
 	
 	//2. Constructor
 	public LoginPage(WebDriver driver) {

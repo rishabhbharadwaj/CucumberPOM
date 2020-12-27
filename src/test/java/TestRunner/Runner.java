@@ -9,7 +9,9 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = {"E:\\Eclipse_IDE\\SeleniumFramework\\CucumberPOM\\src\\test\\resources\\Features"},
 		glue = {"StepDefinations","AppHooks"},
-		plugin = {"pretty"},
+		plugin = {"pretty",
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+				"timeline:test-output-thread/"},
 		monochrome = true
 		)
 public class Runner {
