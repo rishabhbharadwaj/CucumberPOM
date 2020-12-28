@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37369" started-at="2020-12-28T13:41:50 IST" finished-at="2020-12-28T13:42:27 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ParallelTestExecutionByTestNG.TestNGRunner@9a7504c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="37369" started-at="2020-12-28T13:41:50 IST" finished-at="2020-12-28T13:42:27 IST">
+      <class name="ParallelTestExecutionByTestNG.TestNGRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:ParallelTestExecutionByTestNG.TestNGRunner@9a7504c]" name="setUpClass" is-config="true" duration-ms="1944" started-at="2020-12-28T13:41:50 IST" finished-at="2020-12-28T13:41:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ParallelTestExecutionByTestNG.TestNGRunner@9a7504c]" name="runScenario" duration-ms="28857" started-at="2020-12-28T13:41:52 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-28T13:42:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Account page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ParallelTestExecutionByTestNG.TestNGRunner@9a7504c]" name="runScenario" duration-ms="28817" started-at="2020-12-28T13:41:52 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-28T13:42:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Account section count"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Account page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ParallelTestExecutionByTestNG.TestNGRunner@9a7504c]" name="runScenario" duration-ms="25552" started-at="2020-12-28T13:41:52 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-28T13:42:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ParallelTestExecutionByTestNG.TestNGRunner@9a7504c]" name="runScenario" duration-ms="28845" started-at="2020-12-28T13:41:52 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-28T13:42:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ParallelTestExecutionByTestNG.TestNGRunner@9a7504c]" name="runScenario" duration-ms="25421" started-at="2020-12-28T13:41:52 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-28T13:42:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot password link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"partial link text","selector":"Forgot your password?123"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JARVIS', ip: '192.168.1.104', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\RISHAB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 563cfb0100ad9177f7a6f4a531b7db8d
+*** Element info: {Using=partial link text, value=Forgot your password?123}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Forgot your password?123"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JARVIS', ip: '192.168.1.104', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\RISHAB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 563cfb0100ad9177f7a6f4a531b7db8d
+*** Element info: {Using=partial link text, value=Forgot your password?123}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByPartialLinkText(RemoteWebDriver.java:388)
+at org.openqa.selenium.By$ByPartialLinkText.findElement(By.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Pages.LoginPage.isForgotPwdLinkExist(LoginPage.java:27)
+at StepDefinations.LoginPageSteps.forgot_password_link_should_be_displayed(LoginPageSteps.java:34)
+at ✽.forgot password link should be displayed(file:///E:/Eclipse_IDE/SeleniumFramework/CucumberPOM/src/test/resources/Features/LoginPage.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ParallelTestExecutionByTestNG.TestNGRunner@9a7504c]" name="tearDownClass" is-config="true" duration-ms="6477" started-at="2020-12-28T13:42:21 IST" finished-at="2020-12-28T13:42:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ParallelTestExecutionByTestNG.TestNGRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

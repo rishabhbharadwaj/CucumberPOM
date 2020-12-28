@@ -1,69 +1,81 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "9ef89b29-3f2b-4403-b556-ff3e7b15c667",
+    "id": "66dedb4d-47d4-446a-96ab-2d7e9162a942",
     "feature": "Login page feature",
     "scenario": "Forgot password link",
-    "start": 1609087563419,
-    "group": 14,
+    "start": 1609143178348,
+    "group": 17,
     "content": "",
     "tags": "",
-    "end": 1609087577357,
+    "end": 1609143205539,
     "className": "failed"
   },
   {
-    "id": "60c79817-2a4d-4379-8433-dcd2fe9767cb",
-    "feature": "Login page feature",
-    "scenario": "Login with correct credentials",
-    "start": 1609087577388,
-    "group": 14,
-    "content": "",
-    "tags": "",
-    "end": 1609087592377,
-    "className": "passed"
-  },
-  {
-    "id": "63c29331-fb76-47dd-a70c-113558e617e4",
+    "id": "8c89d2d3-a3f7-4232-805e-1f69929a25f1",
     "feature": "Account page feature",
     "scenario": "Accounts page title",
-    "start": 1609087547253,
-    "group": 13,
-    "content": "",
-    "tags": "",
-    "end": 1609087567039,
-    "className": "passed"
-  },
-  {
-    "id": "9452db0d-013c-4490-be46-0663eb533fe6",
-    "feature": "Account page feature",
-    "scenario": "Account section count",
-    "start": 1609087567052,
-    "group": 13,
-    "content": "",
-    "tags": "",
-    "end": 1609087581630,
-    "className": "passed"
-  },
-  {
-    "id": "ff4198b3-aa10-4423-b531-5bcb04ff5265",
-    "feature": "Login page feature",
-    "scenario": "Login page title",
-    "start": 1609087547591,
+    "start": 1609143178529,
     "group": 14,
     "content": "",
     "tags": "",
-    "end": 1609087563360,
+    "end": 1609143208365,
+    "className": "passed"
+  },
+  {
+    "id": "46cbb3e1-74b4-44cb-87a7-424749cd7270",
+    "feature": "Account page feature",
+    "scenario": "Account section count",
+    "start": 1609143178527,
+    "group": 15,
+    "content": "",
+    "tags": "",
+    "end": 1609143208392,
+    "className": "passed"
+  },
+  {
+    "id": "918f4673-f918-47fc-b52f-918a877737f4",
+    "feature": "Login page feature",
+    "scenario": "Login page title",
+    "start": 1609143178527,
+    "group": 16,
+    "content": "",
+    "tags": "",
+    "end": 1609143205499,
+    "className": "passed"
+  },
+  {
+    "id": "2c7ad665-4643-41ea-bf61-867940d0449a",
+    "feature": "Login page feature",
+    "scenario": "Login with correct credentials",
+    "start": 1609143178525,
+    "group": 18,
+    "content": "",
+    "tags": "",
+    "end": 1609143208396,
     "className": "passed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
   {
-    "id": 13,
-    "content": "Thread[pool-1-thread-1,5,main]"
+    "id": 14,
+    "content": "Thread[TestNG-PoolService-0,5,main]"
   },
   {
-    "id": 14,
-    "content": "Thread[pool-1-thread-2,5,main]"
+    "id": 15,
+    "content": "Thread[TestNG-PoolService-1,5,main]"
+  },
+  {
+    "id": 16,
+    "content": "Thread[TestNG-PoolService-2,5,main]"
+  },
+  {
+    "id": 17,
+    "content": "Thread[TestNG-PoolService-3,5,main]"
+  },
+  {
+    "id": 18,
+    "content": "Thread[TestNG-PoolService-4,5,main]"
   }
 ]);
 });
